@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  db:
+    image: postgres:14.2
+    ports:
+      - 15432:5432
+    environment:
+      POSTGRES_PASSWORD: "Pwd123Pwd"
+
+  admin_web:
+    image: adminer:4.7-standalone
+    ports:
+      - 18080:8080
