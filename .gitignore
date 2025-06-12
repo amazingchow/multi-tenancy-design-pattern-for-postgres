@@ -173,3 +173,6 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 .vscode
+.metadata_db_instance_data
+.tenant_db_instance_1_data
+.tenant_db_instance_2_data
